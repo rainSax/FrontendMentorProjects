@@ -1,0 +1,334 @@
+html,
+body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    /* border: 10px solid red; */
+    max-width: 69.625rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 3.5rem 0;
+}
+
+div.top-third {
+    position: absolute;
+    width: 100%;
+    background-color: #24053E;
+    height: 45rem;
+    padding-bottom: 10%;
+    border-bottom-right-radius: 50% 8%;
+    border-bottom-left-radius: 50% 8%;
+    overflow: hidden;
+}
+
+.workit-white {
+    position: absolute;
+}
+
+.ring-one-div {
+    position: relative;
+    top: 15%;
+    right: 5%;
+    max-width: 16.89rem;
+    max-height: 13.44rem;
+}
+
+.ring.pat-one {
+    width: 100%;
+    height: 100%;
+}
+
+.ring-two-div {
+    position: relative;
+    top: 40%;
+    left: 92%;
+    max-width: 8.86rem;
+    max-height: 7.04rem;
+}
+
+.ring.pat-two {
+    width: 100%;
+    height: 100%;
+}
+
+.apply-link {
+    position: absolute;
+    right: 1%;
+    width: 140px;
+    height: 35px;
+    color: white;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 20%;
+    text-decoration-color: #44FFA1;
+    font-family: 'Manrope', sans-serif;
+}
+
+.apply-link:hover {
+    color: #44FFA1;
+}
+
+.header-link {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.learn-more {
+    color: black;
+    background-color: #44FFA1;
+    border: 2px solid #44FFA1;
+    width: 10rem;
+    height: 3.8125rem;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+.learn-more:hover {
+    color: #44FFA1;
+    background-color: transparent;
+}
+
+h1 {
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.tailored {
+    text-decoration: underline;
+    text-decoration-color: #44FFA1;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10%;
+}
+
+.smartphone {
+    margin-top: 7em;
+    max-width: 44.6875em;
+    max-height: 26.6875em;
+}
+
+/* have photo take the full area of the PARENT */
+.smartphone-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mid-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.mid-desc {
+    line-height: 2rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.125rem;
+}
+
+.circle {
+    border: 2px solid black;
+    min-width: 2.1rem;
+    min-height: 2.1rem;
+    border-radius: 50%;
+    font-family: 'Fraunces', serif;
+    font-size: 1.6rem;
+    flex: 0;
+}
+
+.bottom-third-content {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.found-img-div {
+    max-width: 28rem;
+    min-width: 10rem;
+    margin-right: -80px;
+    margin-top: -160px;
+}
+
+.founder-image {
+    width: 100%;
+}
+
+.test-invite {
+    background-color: #24053E;
+    padding: 4rem;
+}
+
+.test-invite h2 {
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.test-invite p {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
+.bottom-apply {
+    background-color: #44FFA1;
+    border: 2px solid #44FFA1;
+    padding: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.bottom-apply:hover {
+    background-color: transparent;
+    color: #44FFA1;
+}
+
+.ring-pat-three {
+    position: absolute;
+    flex-shrink: 0;
+    right: 8%;
+    top: 72%
+}
+
+.footer-row {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.socials:hover>* {
+    color: #24053E;
+}
+
+
+
+@media (max-width: 768px) {
+    .apply-link {
+        width: 124px;
+    }
+
+    .numbers {
+        flex-direction: column;
+    }
+
+    .num {
+        flex-direction: row;
+    }
+
+    .smartphone {
+        max-width: 29.95em;
+    }
+
+    .bottom-third-content {
+        margin-top: 45%;
+    }
+
+    .ring-one-div {
+        right: 23%
+    }
+
+    .ring-pat-three {
+        top: 80%;
+        right: 5%;
+    }
+
+    .wrapper {
+        max-width: 43rem;
+    }
+}
+
+@media (max-width:375px) {
+    div.top-third {
+        height: 30rem;
+    }
+
+    .learn-more {
+        margin-top: -3rem;
+    }
+
+    h1 {
+        font-size: 3.125rem;
+    }
+
+    .num {
+        flex-direction: column;
+    }
+
+    .smartphone {
+        max-width: 18.64rem;
+        margin-top: 3rem;
+    }
+
+    .bottom-third-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .test-invite {
+        padding: 1rem;
+        margin-top: -40px;
+    }
+
+    .test-invite h2 {
+        font-size: 2rem;
+    }
+
+    .ring-one-div,
+    .ring-two-div,
+    .ring-pat-three {
+        visibility: hidden;
+    }
+
+    .found-img-div {
+        margin: 0;
+    }
+
+    .wrapper {
+        max-width: 21.4rem;
+    }
+}
